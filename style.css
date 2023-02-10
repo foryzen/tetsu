@@ -4,7 +4,6 @@ body{
 
 h1,h2{
     font-family: serif;
-    text-align-last: left;
 }
 
 .title{
@@ -26,4 +25,25 @@ h1,h2{
 
 .site{
     display: inline-block;
+}
+
+.cls-link{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    display: block;
+    font-weight: 500;
+    color: blue;
+}
+
+.cls-link:hover{
+    color: red;
+}
+
+.align{
+    text-align: left;
+}
+
+.cls-spn-01{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
