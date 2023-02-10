@@ -1,0 +1,25 @@
+h1,h2{
+    font-family: serif;
+    text-align: left;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.sakusya{
+    padding: 0 0 0 1em;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.cls-text{
+    font-size: 30px;
+    margin: 0;
+}
+
+.site{
+    text-align: center;
+    display: inline-block;
+}
