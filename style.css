@@ -47,3 +47,8 @@ h1,h2{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
+
+.copylight{
+    font-size: 25px;
+    font-family: serif;
+}
