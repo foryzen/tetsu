@@ -2,11 +2,16 @@ body{
     text-align: center;
 }
 
+:root{
+    --pd: 0 30px;
+}
+
 h1,h2{
     font-family: serif;
 }
 
 .title{
+    padding: var(--pd);
     font-weight: 500;
     font-size: 40px;
     border-bottom: solid 1px lightgray;
@@ -19,6 +24,7 @@ h1,h2{
 }
 
 .cls-text{
+    padding: var(--pd);
     font-weight: 400;
     font-size: 30px;
     margin: 0;
@@ -31,7 +37,7 @@ h1,h2{
 .cls-link{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 25px;
-    display: block;
+    display: inline-block;
     font-weight: 500;
     color: blue;
 }
@@ -49,6 +55,15 @@ h1,h2{
     font-family: 'Poppins', sans-serif;
 }
 
+.cls-spn-02{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
 .copylight{
     border-top: solid 1px lightgray;
     padding-top: 0.5em;
@@ -61,4 +76,8 @@ h1,h2{
 .うんちぶり{
     padding-bottom: 1em;
     border-bottom: solid 1px lightgray;
+}
+
+.cls-div{
+    display: block;
 }
