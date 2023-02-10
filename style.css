@@ -50,6 +50,9 @@ h1,h2{
 }
 
 .copylight{
+    border-top: solid 1px lightgray;
     font-size: 25px;
+    font-weight: 600;
     font-family: serif;
+    font-family: 'Poppins', sans-serif;
 }
